@@ -9,6 +9,8 @@
 
 ## 在线体验
 
+在多人游戏添加下面这个地址
+
 ```bash
 hyp.jsip.hypcvgm.top
 ```
