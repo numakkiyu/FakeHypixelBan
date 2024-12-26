@@ -144,7 +144,7 @@ func handleConnection(conn net.Conn) {
 			// 发送Fake Hypixel Banned消息
 			message := DisconnectMessage{
 				Text: strings.Join([]string{
-					"§cYou are temporarily banned for §f29d 24h 59m 59s §cfrom this server!\n\n",
+					"§cYou are temporarily banned for §f29d 23h 59m 59s §cfrom this server!\n\n",
 					"§7Reason: §fCheating through the use of unfair game advantages.\n",
 					"§7Find out more: §b§nhttps://www.hypixel.net/appeal§r\n\n",
 					"§7Ban ID: §f#9BE61827\n",
