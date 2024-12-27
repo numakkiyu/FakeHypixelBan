@@ -134,7 +134,7 @@ func handleConnection(conn net.Conn) {
 				return
 			}
 
-			// 读取玩家名称（但我们不需要使用它）
+			// 读取玩家名称（已废弃）
 			_, err = readString(conn)
 			if err != nil {
 				fmt.Printf("读取玩家名称错误: %v\n", err)
